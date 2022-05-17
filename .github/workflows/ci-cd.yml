@@ -8,8 +8,8 @@
 #   workflow_dispatch:
 # jobs:
 #   deploy-staging:
-#      env:
-#        REPO_PUSH_TOKEN : ${{ secrets.ACTIONS_TOKEN }}
+#     env:
+#       REPO_PUSH_TOKEN : ${{ secrets.ACTIONS_TOKEN }}
 #     name: Deploy to staging environment
 #     runs-on: ubuntu-latest
 #     environment: Staging
